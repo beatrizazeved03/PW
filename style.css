@@ -3278,6 +3278,27 @@ ul.nav li {
 ul.nav li a {
 	float:left;
 	}
+ul.nav { 
+	margin:0; 
+	padding:0;
+	}
+	
+ul.nav li {
+	list-style:none;	
+	display:inline;
+	}
+ul.nav li a {
+	float:left;
+	border:1px solid #f00;
+	width:6.0em;
+	font:0.68em  Verdana, Arial, Helvetica, 
+	sans-serif;
+	background:#f1f1f1;
+	color:#333;
+	text-align:center;
+	padding:0  0.2em 0.2em  0;
+	text-decoration:none;
+	}
 /* Elements page
 ================================================== */
 

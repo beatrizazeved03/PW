@@ -61,12 +61,6 @@
 			<div class="row">
 				<!-- Logo start -->
 				<div class="navbar-header">
-				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				    </button>
 				    <div class="navbar-brand navbar-bg">
 					    <a href="index.html">
 					    	<img class="img-responsive" src="images/logo.png" alt="logo">
@@ -120,23 +114,6 @@
 		</div><!--/ Container end -->
 	</header><!--/ Header end -->
 
-	<div id="banner-area">
-		<img src="images/banner/banner1.jpg" alt ="" />
-		<div class="parallax-overlay"></div>
-			<!-- Subpage title start -->
-			<div class="banner-title-content">
-	        	<div class="text-center">
-		        	<h2>Pagamento da Atividade</h2>
-		        	<ul class="breadcrumb">
-						<li>Home</li>
-						<li>Modalidades</li>
-			            <li><a href="#"> Pagamento-Atividade-Individual</a></li>
-		          	</ul>
-	          	</div>
-          	</div><!-- Subpage title end -->
-	</div><!-- Banner area end -->
-
-	<!-- Main container start -->
 
 	<section id="main-container">
 		<div class="container">
@@ -146,31 +123,36 @@
 	    		<div class="col-md-7">
 	    			<form id="inscricao-form" action="inscricao-form.js"  role="form">
 
-                        <div class="widget-title">Contra Relógio</div>
-                        <h4><a href="#">Braga | 30/10 | 14:00</a></h4>
-
-
+                        <div class="widget-title">Alterar dados pessoais</div>
 						<div class="form-group">
-							<label>Nome do Participante</label>
-						<input class="form-control" name="nome_equipa" id="nome_equipa" placeholder="" type="text" required>
-						</div>
-                        <div>
-                                <button class="btn btn-primary solid blank" type="button">Multibanco</button>
-                                <button class="btn btn-primary solid blank" type="button">MBWAY</button>
-                                <button class="btn btn-primary solid blank" type="button">PAYPAL</button>
-                            </div>
-
-
+							<label>Nome do participante</label>
+						<input disabled type="text" name="nome_participante" size="30">
+						<br></br>
+							<label>Password</label>
+							<input type="password" name="password" size="30">
+							<br></br>
+							<label>Email</label>
+							<input type="text" name="e-mail" size="30">
+							<br></br>
+							<label>Morada</label>
+							<input type="text" name="morada" size="30">
+							<br></br>
+							<label>Telefone</label>
+							<input type="text" name="telefone" size="30">
+							<br></br>
+							<label>Data de nascimento</label>
+							<input type="text" name="datanascimento" size="30">
 						<div class="text-right"><br>
-							<button class="btn btn-primary solid blank" type="submit">Pagar</button> 
+							<button class="btn btn-primary solid blank" type="submit">Alterar</button> 
 						</div>
 					</form>
                 </div>
 	    	</div>
 
 		</div><!--/ container end -->
+
 		<nav id="menu">
-			<ul>
+			<ul style="height: 30px;position: fixed;width: 100%;z-index: 1000;bottom: 0;">
 				<li>
 					<a href="inicio.html">
 						<div class="icon"></div>
@@ -178,11 +160,12 @@
 					</a>
 				</li>
 				<li>
-						<a href="#">
-							<div class="icon"></div>
-							<i class="fa fa-chevron-left" aria-hidden="true"></i>
-						</a>
-					</li>
+					<a href="#">
+						<div class="icon"></div>
+						<i class="fa fa-chevron-left" aria-hidden="true"></i>
+					</a>
+				</li>
 			</ul>
 		</nav>
+
 	</section><!--/ Main container end -->

@@ -101,18 +101,16 @@
 
 	/* Common */
 	.parallax{
-		padding: 0px ;
+		padding: 60px 0;
 	}
 
 	/* Logo */
 	.navbar-brand{
-		width: 0px;
-		height: 90px;
-
+		width: auto;
 	}
 
 	.navbar-brand.navbar-bg{
-		width: 0px;
+		width: 25%;
 	}
 
 	.header2 .navbar-brand, .header3 .navbar-brand,
@@ -556,7 +554,7 @@
 	/* Slideshow */
 
 	#main-slide .slides img{
-		height: 230px;
+		height: 21em;
 	}
 
 	#main-slide .item img{

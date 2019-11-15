@@ -1502,12 +1502,11 @@ textarea.input-lg {
 .btn-primary {
 	color:#fff;
 	background-color:#428bca;
-	border-color:#357ebd
+	border-color:#b90000;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
 	color:#fff;
-	background-color:#3276b1;
-	border-color:#285e8e
+	border-color:grey
 }
 .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
 	background-image:none
@@ -3001,7 +3000,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 	margin-left:-15px
 }
 }
-.navbar-toggle {
+/*.navbar-toggle {
 	position:relative;
 	float:right;
 	padding:9px 10px;
@@ -3020,7 +3019,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 .navbar-toggle .icon-bar+.icon-bar {
 	margin-top:4px
-}
+} */
 @media(min-width:768px) {
 .navbar-toggle {
 	display:none
@@ -3180,9 +3179,9 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 	color:#ccc;
 	background-color:transparent
 }
-.navbar-default .navbar-toggle {
+/*.navbar-default .navbar-toggle {
 	border-color:#ddd
-}
+} */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color:#ddd
 }

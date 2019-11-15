@@ -2,7 +2,7 @@
 ================================================== */
 
 a{
-	color: #ee3b24;
+	color: #b90000;
 }
 
 a.read-more:hover{
@@ -13,24 +13,24 @@ a.read-more:hover{
 /* Typography
 ================================================== */
 
-.btn.btn-primary{
-	border: 2px solid #ee3b24;
-}
+/*.btn.btn-primary{
+	border: 2px solid grey;
+} 
 
 .btn.btn-primary:hover{
-	background: #ee3b24;
+	background: white;
 }
 
 .btn.btn-primary.solid{
-	background: #ee3b24;
+	background: grey;
 }
-
+*/
 ul.circle li:before{
-	color: #ee3b24;
+	color: grey;
 }
 
 ul.check-list li i{
-	color: #ee3b24;
+	color: grey
 }
 
 blockquote {
@@ -42,33 +42,33 @@ blockquote {
 ================================================== */
 
 .heading:hover .title-icon{
-	color: #ee3b24;
+	color: grey;
 }
 
 h2.entry-title a:hover{
-	color: #ee3b24;
+	color: white;
 }
 
 /* Icon pentagon */
 
 .icon-pentagon{
-	background: none repeat scroll 0 0 #ee3b24;
+	background: none repeat scroll 0 0 grey;
 }
 
 .icon-pentagon:before{
-	border-bottom: 10px solid #ee3b24;
+	border-bottom: 10px solid grey;
 }
 
 .icon-pentagon:after {
-	border-top: 10px solid #ee3b24;
+	border-top: 10px solid #b90000;
 }
 
 .service-icon:before {
-	border-bottom: 30px solid #ee3b24;
+	border-bottom: 30px solid grey;
 }
 
 .service-icon:after {
-	border-top: 30px solid #ee3b24;
+	border-top: 30px solid grey;
 }
 
 /* Carousel controller */
@@ -105,7 +105,7 @@ h2.entry-title a:hover{
 
 /*-- Header --*/
 .header{
-	border-top: 5px solid #ee3b24;
+	border-top: 5px solid #b90000;
 }
 
 .header-solid ul.navbar-nav > li:hover > a, .header-solid ul.navbar-nav > li.active > a {
@@ -115,7 +115,7 @@ h2.entry-title a:hover{
 /*-- Logo --*/
 
 .navbar-brand.navbar-bg{
-	background: #ee3b24;
+	background: #b90000;
 }
 
 /*-- Main navigation --*/
@@ -126,7 +126,7 @@ ul.navbar-nav > li.active > a{
 }
 
 .navbar-toggle{
-	background: #ee3b24;
+	background: grey;
 }
 
 .dropdown-menu > ul > li.active > a{
@@ -145,7 +145,7 @@ ul.navbar-nav > li.active > a{
 /*-- Header bgnone fixed --*/
 
 .header-bgnone{
-	background: #ee3b24;
+	background: grey;
 }
 
 
@@ -264,9 +264,9 @@ ul.navbar-nav > li.active > a{
 	color: #ee3b24;
 }
 
-#back-to-top .btn.btn-primary:hover{
+/*#back-to-top .btn.btn-primary:hover{
 	background: #ee3b24;
-}
+}*/
 
 .footer-about-us h4{
 	color: #ee3b24;
@@ -315,7 +315,7 @@ ul.navbar-nav > li.active > a{
 
 .landing-header.header-bgnone ul.navbar-nav > li:hover > a, 
 .landing-header.header-bgnone ul.navbar-nav > li.active > a {
-	color: #ee3b24;
+	color: grey;
 }
 
 .features-content .features-icon{
